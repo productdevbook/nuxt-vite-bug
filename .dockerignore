@@ -1,0 +1,7 @@
+npm-debug.log
+docker-volumes
+e2e
+test
+.nuxt
+node_modules/
+dist/

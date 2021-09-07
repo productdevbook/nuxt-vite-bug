@@ -1,0 +1,85 @@
+@import './component/meter.css';
+/* @import './component/list.css'; */
+/* @import './component/global.css'; */
+@import './component/dark.css';
+@import './component/popover.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  [type='password'],
+  [type='text'],
+  [type='password'],
+  [type='email'],
+  [type='number'],
+  [type='url'],
+  [type='date'],
+  [type='datetime-local'],
+  [type='month'],
+  [type='week'],
+  [type='time'],
+  [type='search'],
+  [type='tel'],
+  [multiple],
+  textarea,
+  select {
+    @apply mt-1 block w-full rounded-md py-2 px-3 sm:text-sm border-2 focus:outline-none border-warnGray-200 dark:border-trueGray-600 bg-warnGray-100 dark:bg-trueGray-800 text-warnGray-900 dark:text-warnGray-200;
+  }
+}
+
+@layer components {
+  [type='radio'],
+  [multiple],
+  select {
+    @apply mt-1 rounded-full focus:ring-green-500 h-5 w-5 text-green-600 dark:text-green-500 cursor-pointer border-warnGray-300;
+  }
+}
+
+@layer components {
+  [type='checkbox'],
+  [multiple],
+  select {
+    @apply h-6 w-6 text-green-600 focus:ring-green-500 border-warnGray-300 rounded-md;
+  }
+}
+
+@layer components {
+  .header-title {
+    @apply text-sm font-semibold;
+  }
+  .menuLinkTitle {
+    @apply px-3 text-xs uppercase font-medium my-2 text-warnGray-500 transition duration-200 dark:text-gray-100 hover:text-gray-900 dark:hover:text-gray-400;
+  }
+  .subTitle {
+    @apply text-[#86868b] font-normal;
+  }
+  .silver {
+    @apply text-[#c7c8ca];
+  }
+
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl font-semibold text-[#1d1d1f];
+  }
+  h2 {
+    @apply text-xl font-semibold text-[#1d1d1f];
+  }
+  h3 {
+    @apply text-lg font-medium text-warnGray-600;
+  }
+  h4 {
+    @apply text-base font-medium text-warnGray-600;
+  }
+  h5 {
+    @apply text-sm font-medium text-warnGray-600;
+  }
+  body {
+    @apply text-[#1d1d1f] dark:text-trueGray-50;
+  }
+}
+

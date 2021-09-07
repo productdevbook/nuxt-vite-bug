@@ -1,0 +1,15 @@
+query accountTypes {
+  accountTypes {
+    pageData{
+      count
+    }
+    page {
+      edges {
+        node {
+          name
+          id
+        }
+      }
+    }
+  }
+}

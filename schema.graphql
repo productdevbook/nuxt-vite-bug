@@ -1,0 +1,39 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type AccountType {
+  createdAt: Date
+  createdId: String
+  id: String!
+  name: String
+  updatedAt: Date
+  updatedId: String
+  users: [User!]!
+}
+
+type User {
+  accountType: AccountType!
+  bookContributes: [BookContribute]
+  booksCount: Int
+  coverImage: File
+  createdAt: Date
+  createdId: String
+  email: String!
+  followers: [UserFollow]
+  followersCount: Int
+  followingShelfsCount: Int
+  followings: [UserFollow]
+  followingsCount: Int
+  id: String!
+  population: Population
+  profileImage: File
+  shelfFollows: [ShelfFollow]
+  shelfs: [Shelf]
+  shelfsCount: Int
+  updatedAt: Date
+  updatedId: String
+  userBookLogs: [UserBookLog]
+  userBooks: [UserBook]
+  username: String!
+}

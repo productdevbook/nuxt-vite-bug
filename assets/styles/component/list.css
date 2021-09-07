@@ -1,0 +1,22 @@
+/* // .list {
+//   li {
+//     @apply relative;
+//   }
+//   li::before {
+//     @apply h-full absolute top-0 pointer-events-none;
+//     content: '';
+//     right: calc(1.5rem * -1);
+//     left: calc(1.5rem * -1);
+//   }
+
+//   li:nth-child(even)::before {
+//     background-color: hsla(198,45%,10%,.02);
+//     &:hover {
+//       background-color: #0074D9;
+//     }
+//   }
+// }
+
+// .list-body .clickable:not(.disabled):hover::before {
+//   @apply bg-gray-500 opacity-10;
+// } */

@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "esnext.asynciterable",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "noEmit": true,
+    "baseUrl": ".",
+    "importsNotUsedAsValues": "preserve",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "types": [
+      "@types/node",
+      "@nuxt/types",
+      "vue-cli-plugin-apollo/types",
+      "vue-apollo/types",
+      "@nuxtjs/i18n",
+      "nuxt-tailvue",
+      "@nuxtjs/auth-next",
+      "@nuxtjs/date-fns",
+      "@nuxtjs/sentry",
+      "@pinia/nuxt",
+      "@nuxtjs/composition-api",
+      "@nuxtjs/axios",
+      "nuxt-viewport",
+      "vue-final-modal",
+      "@nuxt/image",
+      "@nuxtjs/pwa",
+      "lodash",
+      "@nuxtjs/apollo",
+      "@nuxtjs/universal-storage",
+      "pinia-cached-store"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".nuxt",
+    "dist",
+    ".github",
+    ".idea"
+  ]
+}

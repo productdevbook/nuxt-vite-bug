@@ -1,0 +1,75 @@
+.dark .bg-warnGray-50 {
+  @apply bg-trueGray-900;
+}
+
+.dark .bg-warnGray-100 {
+  @apply bg-trueGray-800;
+}
+
+.dark .bg-warnGray-200 {
+  @apply bg-trueGray-700;
+}
+
+.dark .bg-warnGray-300 {
+  @apply bg-trueGray-600;
+}
+
+.dark .bg-warnGray-400 {
+  @apply bg-trueGray-500;
+}
+
+.dark .bg-warnGray-500 {
+  @apply bg-trueGray-400;
+}
+
+.dark .bg-warnGray-600 {
+  @apply bg-trueGray-400;
+}
+
+.dark .bg-warnGray-700 {
+  @apply bg-trueGray-200;
+}
+
+.dark .bg-warnGray-800 {
+  @apply bg-trueGray-100;
+}
+
+.dark .bg-warnGray-900 {
+  @apply bg-trueGray-50;
+}
+
+.dark .text-warnGray-900 {
+  @apply text-trueGray-50;
+}
+
+.dark .text-warnGray-700 {
+  @apply text-trueGray-50;
+}
+
+.dark .text-warnGray-600 {
+  @apply text-trueGray-100;
+}
+
+.dark .text-warnGray-500 {
+  @apply text-trueGray-300;
+}
+
+.dark .text-warnGray-50 {
+  @apply text-trueGray-900;
+}
+
+.dark .border-warnGray-100 {
+  @apply border-trueGray-900;
+}
+
+.dark .border-warnGray-200 {
+  @apply border-trueGray-700;
+}
+
+.dark .border-warnGray-300 {
+  @apply border-trueGray-600;
+}
+
+.dark .divide-warnGray-200 {
+  @apply border-trueGray-700;
+}
